@@ -1,0 +1,34 @@
+A Wordpress and BlueprintCSS Skeletal Theme
+
+<pre>
+<?php get_header(); ?>
+<div class="container ">
+    <div class="span-17" id="content">  
+        <?php
+                get_template_part( 'loop', 'index' );
+        ?>
+    </div>
+    <div class="span-7 last">
+        <?php get_sidebar(); ?>
+    </div>
+</div><!-- #container -->
+<div class="container">
+    <?php get_footer(); ?>
+</div>
+</pre>
+
+All the individual template files (page.php, index.php, single.php, etc.) are setup something like this. This way, it would be better because you will be able to specify the columns for each template.
+
+Features
+- Easy to update columns. Columns are specified in template files (single.php, index.php, category.php, author.php, etc.
+- BlueprintCSS is located in /css/blueprint
+- Easily add your custom CSS in style.css
+- Based on the Twenty Ten theme
+- No images
+- Only the Menu and Image CSS is included in style.css – I think this is useful
+- The left side has 17 columns while the right side has 7 columns.
+
+Download and Installation
+- Download HERE
+- Extract to your /theme directory
+- Enable the theme.

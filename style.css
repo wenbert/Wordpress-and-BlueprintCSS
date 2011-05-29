@@ -1,0 +1,153 @@
+/*
+Theme Name: Wordpress Blueprint
+Theme URI: http://blog.ekini.net
+Description: Wordpress and Blueprint CSS skeletal theme.
+Author: Wenbert Del Rosario
+Version: 1.0
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+*/
+
+/*
+You can put your custom CSS here!
+*/
+
+/*
+Mainmenu
+This is the Twenty Ten Menu. You can edit the colors, etc here.
+*/
+#access {
+    background: #A6C8FF;
+    display: block;
+    float: left;
+    margin: 0 auto;
+    width: 950px;
+}
+#access .menu-header,
+div.menu {
+    font-size: 13px;
+    margin-left: 12px;
+    /* width: 928px;*/
+}
+#access .menu-header ul,
+div.menu ul {
+    list-style: none;
+    margin: 0;
+}
+#access .menu-header li,
+div.menu li {
+    float: left;
+    position: relative;
+}
+#access a {
+    color: #3588B7;
+    display: block;
+    line-height: 38px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+#access ul ul {
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    float: left;
+    width: 180px;
+    z-index: 99999;
+}
+#access ul ul li {
+    min-width: 180px;
+}
+#access ul ul ul {
+    left: 100%;
+    top: 0;
+}
+#access ul ul a {
+    background: #333;
+    line-height: 1em;
+    padding: 10px;
+    width: 160px;
+    height: auto;
+}
+#access li:hover > a,
+#access ul ul :hover > a {
+    background: #E5ECF9;
+    color: #2A8FC0;
+}
+#access ul li:hover > ul {
+    display: block;
+}
+#access ul li.current_page_item > a,
+#access ul li.current-menu-ancestor > a,
+#access ul li.current-menu-item > a,
+#access ul li.current-menu-parent > a {
+    color: #215B87;
+}
+* html #access ul li.current_page_item a,
+* html #access ul li.current-menu-ancestor a,
+* html #access ul li.current-menu-item a,
+* html #access ul li.current-menu-parent a,
+* html #access ul li a:hover {
+    color: #2A8FC0;
+}
+
+
+
+/*Image*/
+a img {
+    border: none;
+}
+
+img.size-auto,
+img.size-full,
+img.size-large,
+img.size-medium,
+.attachment img {
+    max-width: 100%; /* When images are too wide for containing element, force them to fit. */
+    height: auto; /* Override height to match resized width for correct aspect ratio. */
+}
+.alignleft,
+img.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 24px;
+    margin-top: 4px;
+}
+.alignright,
+img.alignright {
+    display: inline;
+    float: right;
+    margin-left: 24px;
+    margin-top: 4px;
+}
+.aligncenter,
+img.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+    margin-bottom: 12px;
+}
+.wp-caption {
+background: #f1f1f1;
+    line-height: 18px;
+    margin-bottom: 20px;
+    max-width: 632px !important; /* prevent too-wide images from breaking layout */
+    padding: 4px;
+    text-align: center;
+}
+.wp-caption img {
+    margin: 5px 5px 0;
+}
+.wp-caption p.wp-caption-text {
+    color: #888;
+    font-size: 12px;
+    margin: 5px;
+}
