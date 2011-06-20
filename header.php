@@ -45,6 +45,8 @@
 
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
+<!-- The custom CSS -->
+<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory') ?>/style_custom.css" type="text/css" media="screen, projection">
 
 <!--[if lt IE 8]><link rel="stylesheet" href="../blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
