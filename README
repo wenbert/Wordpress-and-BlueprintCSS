@@ -12,9 +12,8 @@ A Wordpress and BlueprintCSS Skeletal Theme
         <?php get_sidebar(); ?>
     </div>
 </div><!-- #container -->
-<div class="container">
-    <?php get_footer(); ?>
-</div>
+
+<?php get_footer(); ?>
 </pre>
 
 All the individual template files (page.php, index.php, single.php, etc.) are setup something like this. This way, it would be better because you will be able to specify the columns for each template.
@@ -22,7 +21,7 @@ All the individual template files (page.php, index.php, single.php, etc.) are se
 Features
 - Easy to update columns. Columns are specified in template files (single.php, index.php, category.php, author.php, etc.
 - BlueprintCSS is located in /css/blueprint
-- Easily add your custom CSS in style.css
+- Easily add your custom CSS in style_custom.css
 - Based on the Twenty Ten theme
 - No images
 - Only the Menu and Image CSS is included in style.css – I think this is useful
