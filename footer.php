@@ -10,7 +10,7 @@
  * @since Wordpress Blueprint
  */
 ?>
-<div class="container">
+<div class="footer">
     <div class="span-24 last" id="footer" role="contentinfo">
         <div id="site-info">
             <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
@@ -23,7 +23,7 @@
             <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'wpbp' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'wpbp' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s.', 'wpbp' ), 'WordPress' ); ?></a>
         </div><!-- #site-generator -->
     </div><!-- #wrapper -->
-</div>
+</div> <!-- .footer -->
 <?php
 	/* Always have wp_footer() just before the closing </body>
 	 * tag of your theme, or you will break many plugins, which
@@ -32,6 +32,7 @@
 
 	wp_footer();
 ?>
+</div> <!-- .container -->
 
 </body>
 </html>

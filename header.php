@@ -69,6 +69,7 @@
 <body <?php body_class(); ?>>
 
 <div class="container showgrid">
+<div class="header">
     <h1>
         <a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
     </h1>
@@ -76,4 +77,4 @@
     <div class="span-24 last" id="access" role="navigation">
         <?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
     </div>
-</div>
+</div> <!-- .header -->
