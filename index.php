@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-<div class="container showgrid">
+<div class="body">
     <div class="span-17 " id="content">  
 			<?php
 			/* Run the loop to output the posts.
@@ -28,6 +28,6 @@ get_header(); ?>
     <div class="span-7 last">
         <?php get_sidebar(); ?>
     </div>
-</div><!-- #container -->
+</div><!-- .body -->
 
 <?php get_footer(); ?>
